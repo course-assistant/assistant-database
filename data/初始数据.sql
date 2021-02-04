@@ -4,7 +4,7 @@ use hncj_course_assistant;
 
 -- 添加管理员
 insert into administrator values('root','E10ADC3949BA59ABBE56E057F20F883E',1);
-
+delete from administrator where administrator_id = 'root';
 select * from administrator;
 
 -- 添加教师
