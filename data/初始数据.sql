@@ -9,7 +9,7 @@ select * from administrator;
 
 -- 添加教师
 insert into teacher values('888888888','root','张妍琰','E10ADC3949BA59ABBE56E057F20F883E',0,'avatar','13512345678','123@qq.com','',1);
-
+delete from teacher where teacher_id = '888888888';
 select * from teacher;
 
 -- 添加学生
